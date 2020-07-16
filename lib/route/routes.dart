@@ -1,3 +1,4 @@
+import 'package:covid19tracker/screens/homescreen.dart';
 import 'package:covid19tracker/screens/splash.dart';
 import 'package:flutter/material.dart';
 
@@ -9,7 +10,7 @@ class Routes {
      '/': (BuildContext context) => SplashScreen(),
     
     
-    // '/home': (BuildContext context) => HomeScreen(),
+     '/home': (BuildContext context) => MyHomePage(),
     
 
 
